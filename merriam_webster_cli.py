@@ -8,7 +8,7 @@ import warnings
 warnings.filterwarnings("ignore", category=NotOpenSSLWarning)
 
 def get_definition(word):
-    api_key = "6d80af74-b5ab-4c79-9bb0-26809eb6eae8"  # Replace this with your Merriam-Webster API key
+    api_key = "Put Your API Key Here"  # Replace this with your Merriam-Webster API key
     url = f"https://www.dictionaryapi.com/api/v3/references/collegiate/json/{word}?key={api_key}"
     response = requests.get(url)
     
